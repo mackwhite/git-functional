@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Consumer Functional Trait Synthesis Group",
     "section": "",
-    "text": "Main Repository\n  \n  \n    \n     NCEAS Info\n  \n  \n    \n     Hotel Info\n  \n\n  \n  \nThis working group aims to assess spatiotemporal diversity patterns of aquatic consumers across time and in response to global change by utilizing consumer population time-series data from long-term monitoring programs.\n\n\nThe working group will convene at the National Center for Ecological Analysis and Synthesis (NCEAS) the week of February 9-13, 2026. Please see drafted schedule below.\nphoto by Isaac Szabo"
+    "text": "Main Repository\n  \n  \n    \n     NCEAS Info\n  \n  \n    \n     Hotel Info\n  \n\n  \n  \nThis working group aims to assess spatiotemporal diversity patterns of aquatic consumers across time and in response to global change by utilizing consumer population time-series data from long-term monitoring programs.\n\n\nThe working group will convene at the National Center for Ecological Analysis and Synthesis (NCEAS) the week of February 9-13, 2026. Please see drafted schedule below.\nphoto by ChatGPT 5.2"
   },
   {
     "objectID": "about.html",
@@ -26,5 +26,12 @@
     "title": "Consumer Functional Trait Synthesis Group",
     "section": "About the Dataset",
     "text": "About the Dataset\nOhio is defined by its abundant water resources, bordered by the Ohio River to the south and Lake Erie to the north. Together with thousands of miles of streams and rivers and extensive lakes and wetlands, these waters play a central role in supporting ecosystems, communities, and quality of life across the state. The Ohio Environmental Protection Agency’s Division of Surface Water oversees a wide range of monitoring and assessment programs spanning inland lakes, Lake Erie, headwater streams, rivers, and wetlands, as well as comprehensive watershed studies.\nEach year, Ohio EPA scientists survey approximately 400–450 stream and river sites statewide as part of these watershed assessments. Field crews collect chemical water samples, evaluate fish and aquatic macroinvertebrate communities, and measure physical characteristics of streams to assess overall condition. These efforts are guided by three primary goals: evaluating whether streams meet expectations outlined in Ohio’s Water Quality Standards, determining whether those expectations are appropriate and achievable, and identifying changes in stream condition since previous assessments.\nData from field surveys are analyzed and synthesized into biological and water quality reports, which inform both scientific understanding and management decisions. See Final 2024 integrated report here. Collectively, these assessments also underpin Ohio’s identification of impaired and threatened waters under Section 303(d) of the Clean Water Act.\nText adapted from materials produced by the Ohio Environmental Protection Agency."
+  },
+  {
+    "objectID": "index.html#schedule-for-week",
+    "href": "index.html#schedule-for-week",
+    "title": "Consumer Functional Trait Synthesis Group",
+    "section": "Schedule for Week",
+    "text": "Schedule for Week"
   }
 ]
