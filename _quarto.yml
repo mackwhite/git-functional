@@ -5,7 +5,7 @@ project:
 
 website:
   title: "Consumer Functional Trait Synthesis Group"
-  favicon: images/fish-teach.png
+  favicon: images/hexasticker_mFD.png
   navbar:
     background: primary
     left:
