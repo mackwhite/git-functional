@@ -1,20 +1,34 @@
 project:
   type: website
+  # execute-dir: project
   output-dir: docs
 
 website:
-  title: "git-functional"
+  title: "Consumer Functional Trait Synthesis Group"
+  favicon: images/fish-teach.png
   navbar:
+    background: primary
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
+      - text: "About"
+        href: about.qmd
+    right: 
+      - icon: github
+        href: https://github.com/mackwhite/aquatic-ecology-seminar
+      - text: Ohio EPA
+        href: https://epa.ohio.gov/divisions-and-offices/surface-water/reports-data/statewide-biological-and-water-quality-monitoring-and-assessment
+    page-footer: 
+      # center:
+      background: secondary
+      
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: 
+      light: fnxlight.scss
+      dark: fnxdark.scss
+    mainfont: Open Sans
+    # css: styles.css
     toc: true
+    link-external-newwindow: true
+    link-external-icon: false
 
-
-
+# editor: visual

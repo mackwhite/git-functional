@@ -1,0 +1,59 @@
+/*-- scss:defaults --*/
+
+/* ============================
+   UCSB – Dark Mode
+   (navy/charcoal + gold accents)
+   ============================ */
+
+// UCSB-inspired colors tuned for dark backgrounds
+$ucsb-gold:    #F4B400;  // accent highlight (use sparingly)
+$ucsb-gold-dk: #D39A00;  // border/hover gold
+
+$ucsb-blue:    #66A6FF;  // readable link blue on dark
+$ucsb-navy-hl: #123B73;  // slightly brighter navy for hovers/highlights
+
+// Dark-mode neutrals (navy-charcoal rather than pure black)
+$gray-5: #070A10;        // near-black (navbar/footer)
+$gray-4: #0B1220;        // main background (deep navy-charcoal)
+$gray-3: #111B2E;        // cards / code blocks
+$gray-2: #B8C0CC;        // secondary text
+$gray-1: #E8EDF3;        // primary text
+
+$white: #FFFFFF;
+$black: #000000;
+
+// Fonts
+$font-size: 25px;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+/* ============================
+   Base document colors
+   ============================ */
+
+$body-bg: $gray-4;           // dark background
+$body-color: $gray-1;        // readable light text
+
+$navbar-bg: $gray-5;         // nearly black/navy navbar
+$navbar-fg: $gray-1;         // navbar text
+$navbar-hl: $ucsb-gold;      // active page highlight
+
+$footer-bg: $gray-5;
+$footer-fg: $gray-2;
+
+$link-color: $ucsb-blue;                 // links pop on dark
+$link-hover-color: lighten($ucsb-blue, 8%);
+
+/* ============================
+   Inline code
+   ============================ */
+
+$code-bg: $gray-3;
+$code-color: $ucsb-gold;     // gold reads great in-line on dark
+
+/* ============================
+   Code blocks
+   ============================ */
+
+$code-block-bg: $gray-3;
+$code-block-border-color: $ucsb-gold-dk;
+$code-block-color: $gray-1;

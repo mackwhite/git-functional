@@ -1,0 +1,60 @@
+/*-- scss:defaults --*/
+
+/* ============================
+   UCSB-inspired Palette
+   (navy + gaucho gold + coastal neutrals)
+   ============================ */
+
+// Core UCSB-ish colors (picked to match your screenshot vibe)
+$ucsb-navy: #0B2D5B;     // deep UCSB header/nav blue
+$ucsb-blue: #1F5AA6;     // brighter link/interactive blue
+$ucsb-sky:  #DCEBFA;     // very light coastal blue tint (optional bg accents)
+
+$ucsb-gold: #F4B400;     // “Gaucho gold” accent (matches the yellow panel)
+$ucsb-gold-dk: #D39A00;  // darker gold for hover/borders
+
+// Neutrals
+$gray-4: #1F2937;        // slate-ish dark text
+$gray-3: #4B5563;
+$gray-2: #9CA3AF;
+$gray-1: #E5E7EB;
+$gray-0: #F7F7F9;
+
+$white: #FFFFFF;
+$black: #000000;
+
+// Fonts
+$font-size: 25px;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+/* ============================
+   Base document colors
+   ============================ */
+
+$navbar-bg: $ucsb-navy;      // UCSB navy navbar
+$navbar-fg: $white;          // white navbar text
+$navbar-hl: $ucsb-gold;      // active page highlight / underline
+
+$body-bg: $white;            // clean background
+$body-color: $gray-4;        // main text
+
+$footer-bg: $ucsb-navy;      // navy footer to match header
+$footer-fg: $gray-1;
+
+$link-color: $ucsb-blue;     // bright blue links
+$link-hover-color: $ucsb-navy;
+
+/* ============================
+   Inline code
+   ============================ */
+
+$code-bg: $gray-0;            // subtle neutral background
+$code-color: $ucsb-navy;      // navy code text
+
+/* ============================
+   Code blocks
+   ============================ */
+
+$code-block-bg: #FBFBFD;      // very light, clean
+$code-block-border-color: $ucsb-gold;  // gold accent border
+$code-block-color: $gray-4;
