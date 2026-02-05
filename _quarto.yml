@@ -13,9 +13,9 @@ website:
         href: about.qmd
     right: 
       - icon: github
-        href: https://github.com/mackwhite/aquatic-ecology-seminar
-      - text: Ohio EPA
-        href: https://epa.ohio.gov/divisions-and-offices/surface-water/reports-data/statewide-biological-and-water-quality-monitoring-and-assessment
+        href: https://github.com/lter/lter-sparc-consumer-fxn-diversity
+      - text: NCEAS
+        href: https://www.nceas.ucsb.edu/visiting-NCEAS
     page-footer: 
       # center:
       background: secondary
