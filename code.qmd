@@ -1,0 +1,154 @@
+---
+title: "Code"
+editor: visual
+---
+
+This page houses a curated set of code designed to support the working group as we explore available data and develop analytical frameworks to meet team objectives.
+
+Working group members are encouraged to explore the code, modify it for their own purposes/exploration, and combine ideas across examples for their analyses and curiousities. Code examples are grouped by theme (e.g., data retrieval, modeling, visualization).
+
+## **Data Retrieval - Group Member Shortcuts**
+
+Below we showcase code that can be used to gather data from google drive using the the [`googledrive`](https://cran.r-project.org/web/packages/googledrive/index.html) package. To run the code, you will need to tell the `googledrive` package who you are... please work through [the tutorial](https://lter.github.io/scicomp/tutorial_googledrive-pkg.html) before trying to run the script below :)
+
+**Housekeeping**
+
+**Load necessary packages**
+
+*if you do not have librarian installed, you will need to install it first*
+
+```{r}
+#| warning: false
+#install.packages('librarian')
+librarian::shelf(tidyverse, googledrive)
+```
+
+[`librarian()`](https://cran.r-project.org/web/packages/librarian/vignettes/intro-to-librarian.html) is nice because it automatically installs, updates, and attaches packages
+
+**Clear environment and collect garbage**
+```{r}
+rm(list = ls()); gc()
+```
+
+[`gc()`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/gc) is nice because it reclaims unused R memory, useful when working with large datasets :)
+
+**Load custom functions**
+```{r}
+purrr::walk(.x = dir(path = file.path("tools"), pattern = "fxn_"),
+            .f = ~ source(file = file.path("tools", .x)))
+```
+
+### **Download keys**
+
+```{r}
+download_drive_folder(
+  folder_url = "https://drive.google.com/drive/folders/1of2tKXcU_KnNDZrYLt3b3smObNrG_aXD",
+  local_subfolder = file.path("Data", "-keys"))
+```
+
+### **Download raw community data**
+
+```{r}
+download_drive_folder(
+  folder_url = "https://drive.google.com/drive/folders/1n6iqs3aK2xWkROI8nPSVfk6ZkYPNpF7F",
+  local_subfolder = file.path("Data", "community_raw-data"))
+```
+
+### **Download raw terrestrial species data**
+
+```{r}
+download_drive_folder(
+  folder_url = "https://drive.google.com/drive/folders/14H0hFBHxiqfubRBZ7DUUOSxMh5NOeiJN",
+  local_subfolder = file.path("Data", "species_raw-data"))
+```
+  
+### **Download raw trait data**
+
+```{r}
+download_drive_folder(
+  folder_url = "https://drive.google.com/drive/folders/1UAq72kFD8Hh9uV1_He1ijJQ1m4lVg7eK",
+  local_subfolder = file.path("Data", "traits_raw-data"),
+  pattern_in = ".csv")
+```
+
+### **Download raw environmental data**
+
+```{r}
+download_drive_folder(
+  folder_url = "https://drive.google.com/drive/folders/1yUg4tYF7F-fuamODUOy55JUg8tmaUyYD",
+  local_subfolder = file.path("Data", "environmental_raw-data"))
+```
+
+### **Download community_tidy data**
+
+```{r}
+download_drive_folder(
+  folder_url = "https://drive.google.com/drive/folders/1LE1Rr1Hfa1uZPvZoUIr1t18khnsnbeFV",
+  local_subfolder = file.path("Data", "community_tidy-data"))
+```
+
+### **Download traits_tidy data**
+
+```{r}
+download_drive_folder(
+  folder_url = "https://drive.google.com/drive/folders/1KPv27jTBIwGwuHNU3-EyWlubN9xXjIDt",
+  local_subfolder = file.path("Data", "traits_tidy-data"))
+```
+
+### **Download species_tidy data**
+
+```{r}
+download_drive_folder(
+  folder_url = "https://drive.google.com/drive/folders/1VOJpEarHAs1csIzAT7pobWXWXjLt6TdN",
+  local_subfolder = file.path("Data", "species_tidy-data"))
+```
+
+## **Data Retrieval - Group Member Steup**
+
+Below we showcase code that can be used to create necessary local folder(s) for following scripts
+
+**Housekeeping**
+
+**Load necessary packages**
+
+*if you do not have librarian installed, you will need to install it first*
+
+```{r}
+#| warning: false
+#install.packages('librarian')
+librarian::shelf(tidyverse, googledrive)
+```
+
+**Clear environment and collect garbage**
+```{r}
+rm(list = ls()); gc()
+```
+
+### **Make folders**
+#### ***create top-level folders***
+```{r}
+dir.create(path = file.path("Data"), showWarnings = F)
+```
+
+#### ***create some useful, one-off 'Data/" subfolders***
+```{r}
+dir.create(path = file.path("Data", "-keys"), showWarnings = F)
+dir.create(path = file.path("Data", "checks"), showWarnings = F)
+dir.create(path = file.path("Data", "mixed_tidy-data"), showWarnings = F)
+```
+
+#### ***create 'raw' and 'tidy' subfolders of "Data/" for each data type***
+```{r}
+## Identify all data types
+data_types <- c("community", "traits", "environmental", "species")
+## Actually make folders
+purrr::walk(.x = paste0(data_types, sort(rep(c("_raw-data", "_tidy-data"), 
+                                               times = length(data_types)))),
+            .f = ~ dir.create(path = file.path("Data", .x),
+                              showWarnings = F, recursive = T))
+```
+
+**Clear environment and collect garbage**
+```{r}
+rm(list = ls()); gc()
+```

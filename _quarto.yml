@@ -3,6 +3,9 @@ project:
   # execute-dir: project
   output-dir: docs
 
+execute:
+  eval: false
+
 website:
   title: "Consumer Functional Trait Synthesis Group"
   favicon: images/hexasticker_mFD.png
@@ -10,7 +13,7 @@ website:
     background: primary
     left:
       - text: "Code"
-        href: about.qmd
+        href: code.qmd
       - text: "Data Agreement"
         href: data_agreement.qmd
       - text: "Authorship Agreement"
