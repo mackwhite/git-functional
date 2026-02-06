@@ -9,8 +9,12 @@ website:
   navbar:
     background: primary
     left:
-      - text: "About"
+      - text: "Code"
         href: about.qmd
+      - text: "Data Agreement"
+        href: data_agreement.qmd
+      - text: "Authorship Agreement"
+        href: auth_agreement.qmd
     right: 
       - icon: github
         href: https://github.com/lter/lter-sparc-consumer-fxn-diversity
