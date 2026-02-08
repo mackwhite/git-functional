@@ -429,8 +429,6 @@ ggsave('output/nsupply-ts-all.png', dpi = 600,
        units= 'in', height = 10, width = 14)
 ```
 
-![](images/nsupply-ts-all.png)
-
 ```{r}
 system_m <- dt_total |> 
       mutate(project = as.factor(project)) |> 
