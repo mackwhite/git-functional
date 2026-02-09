@@ -1,0 +1,78 @@
+---
+title: "Literature"
+editor: visual
+---
+
+This page serves as a shared, living bibliography for the working group. Mack will add citations for the papers discussed in and outside of working group meetings each day. The goal is to create a centralized set of references that captures key concepts and methods related to the team's interests.
+
+Working group participants, please treat this as a collaborative resource. If you bring a paper to the group, please email the citation (with DOI) to Mack (mackwhiteecology\@gmail.com) so he can add it here.
+
+This still needs to be updated below for this working group, still some school stuff tho...
+
+## **Zotero Link**
+
+See link to our public-facing zotero library [here](https://www.zotero.org/groups/6317295/consumerfunctionaldiversity/library) :)
+
+## **Foundational Papers**
+
+#### **Life History**
+
+Winemiller, Kirk O., and Kenneth A. Rose. 1992. [“Patterns of Life-History Diversification in North American Fishes: Implications for Population Regulation.”](https://doi.org/10.1139/f92-242) Canadian Journal of Fisheries and Aquatic Sciences 49 (10): 2196–2218.
+
+Perkin, Joshuah S., Natalie E. Knorp, Thomas C. Boersig, Amy E. Gebhard, Lucas A. Hix, and Thomas C. Johnson. 2017. [“Life History Theory Predicts Long-Term Fish Assemblage Response to Stream Impoundment.”](https://doi.org/10.1139/cjfas-2015-0593) Canadian Journal of Fisheries and Aquatic Sciences 74 (2): 228–39.
+
+Atkinson, Carla L., Alex J. Franzen, Garrett W. Hopper, Jonathan W. Lopez, Zachery D. Zbinden, and Caryn C. Vaughn. 2025. [“Environmental Gradients Drive Convergence in Life History Strategies among Disparate but Coevolved Taxonomic Groups.”](https://doi.org/10.1002/ecy.70273) Ecology 106 (12): e70273.
+
+#### **Natural Flow Regime**
+
+Poff, N. Leroy, J. David Allan, Mark B. Bain, James R. Karr, Karen L. Prestegaard, Brian D. Richter, Richard E. Sparks, and Julie C. Stromberg. 1997. [“The Natural Flow Regime.”](https://doi.org/10.2307/1313099) Bioscience 47 (11): 769–84.
+
+Lytle, David A., and N. Leroy Poff. 2004. [“Adaptation to Natural Flow Regimes.”](https://doi.org/10.1016/j.tree.2003.10.002) Trends in Ecology & Evolution 19 (2): 94–100.
+
+Poff, N. Leroy, and Julie K. H. Zimmerman. 2010. [“Ecological Responses to Altered Flow Regimes: A Literature Review to Inform the Science and Management of Environmental Flows: Review of Altered Flow Regimes.”](https://doi.org/10.1111/j.1365-2427.2009.02272.x) Freshwater Biology 55 (1): 194–205.
+
+#### **River Continuum Concept (RCC)**
+
+Vannote, Robin L., G. Wayne Minshall, Kenneth W. Cummins, James R. Sedell, and Colbert E. Cushing. 1980. [“The River Continuum Concept.”](https://doi.org/10.1139/f80-017) Canadian Journal of Fisheries and Aquatic Sciences 37 (1): 130–37.
+
+Doretto, Alberto, Elena Piano, and Courtney E. Larson. 2020. [“The River Continuum Concept: Lessons from the Past and Perspectives for the Future.”](https://doi.org/10.1139/cjfas-2020-0039) Canadian Journal of Fisheries and Aquatic Sciences 77 (11): 1853–64.
+
+#### **River Ecosystem Synthesis (RES)**
+
+Thorp, James H., Martin C. Thoms, and Michael D. Delong. 2006. [“The Riverine Ecosystem Synthesis: Biocomplexity in River Networks across Space and Time.”](https://doi.org/10.1002/rra.901) River Research and Applications 22 (2): 123–47.
+
+Maasri, Alain, James H. Thorp, Nicholas Kotlinski, Jens Kiesel, Bolortsetseg Erdenee, and Sonja C. Jähnig. 2021. [“Variation in Macroinvertebrate Community Structure of Functional Process Zones along the River Continuum: New Elements for the Interpretation of the River Ecosystem Synthesis.”](https://doi.org/10.1002/rra.3784) River Research and Applications 37 (4): 665–74.
+
+Thorp, James H., Martin C. Thoms, Michael D. Delong, and Alain Maasri. 2023. [“The Ecological Nature of Whole River Macrosystems: New Perspectives from the Riverine Ecosystem Synthesis.”](https://doi.org/10.3389/fevo.2023.1184433) Frontiers in Ecology and Evolution 11 (1184433): 1184433.
+
+## **Methodological Papers**
+
+#### **Scale in Ecology**
+
+Levin, Simon A. 1992. [“The Problem of Pattern and Scale in Ecology: The Robert H. Macarthur Award Lecture.”](https://doi.org/10.2307/1941447) Ecology 73 (6): 1943–67.
+
+Crossley, Michael S., Amanda R. Meier, Emily M. Baldwin, Lauren L. Berry, Leah C. Crenshaw, Glen L. Hartman, Doris Lagos-Kutz, et al. 2020. [“No Net Insect Abundance and Diversity Declines across US Long Term Ecological Research Sites.”](https://doi.org/10.1038/s41559-020-1269-4) Nature Ecology & Evolution 4 (10): 1368–76.
+
+#### **Trait-Based Ecology**
+
+Poff, N. Leroy, Matthew I. Pyne, Brian P. Bledsoe, Christopher C. Cuhaciyan, and Daren M. Carlisle. 2010. [“Developing Linkages between Species Traits and Multiscaled Environmental Variation to Explore Vulnerability of Stream Benthic Communities to Climate Change.”](https://doi.org/10.1899/10-030.1) Journal of the North American Benthological Society 29 (4): 1441–58.
+
+McLean, Matthew, David Mouillot, Martin Lindegren, Sébastien Villéger, Georg Engelhard, Juliette Murgier, and Arnaud Auber. 2019. [“Fish Communities Diverge in Species but Converge in Traits over Three Decades of Warming.”](https://doi.org/10.1111/gcb.14785) Global Change Biology 25 (11): 3972–84.
+
+Streit, Robert P., and David R. Bellwood. 2023. [“To Harness Traits for Ecology, Let’s Abandon ‘Functionality.’”](https://doi.org/10.1016/j.tree.2022.11.009) Trends in Ecology & Evolution 38 (5): 402–11.
+
+#### **Space and Time**
+
+Rimmer, Langston L. H., Jacob F. Schaefer, and Melvin L. Warren. 2026. [“Leveraging A Spatiotemporally Large Dataset to Test Predictions of Life History Theory in Stream Fish Communities.”](https://doi.org/10.1111/eff.70036) Ecology of Freshwater Fish 35 (1): e70036.
+
+Baldigo, Barry P., Scott D. George, and Gregory B. Lawrence. 2025. [“Fish-Assemblage and Water-Quality Recovery with Declining Acidic Deposition in Adirondack Mountain Streams, New York, USA.”](https://doi.org/10.1086/738871) Freshwater Science 44 (4): 443–62.
+
+## **OEPA Papers**
+
+Norton, Susan B., Susan M. Cormier, Marc Smith, and R. Christian Jones. 2000. [“Can Biological Assessments Discriminate among Types of Stress? A Case Study from the Eastern Corn Belt Plains Ecoregion.”](https://academic.oup.com/etc/article/19/4/1113/7830681) Environmental Toxicology and Chemistry 19 (4): 1113–19.
+
+Schubauer-Berigan, Mary K., Marc Smith, Jeff Hopkins, and Susan M. Cormier. 2000. [“Using Historical Biological Data to Evaluate Status and Trends in the Big Darby Creek Watershed (Ohio, USA).”](https://academic.oup.com/etc/article/19/4/1097/7830702) Environmental Toxicology and Chemistry 19 (4): 1097–1105.
+
+Yoder, Chris O., Edward T Rankin, Marc A. Smith, Brian C. Alsdorf, David J. Altfater, Charles E. Boucher, Robert J. Miltner, Dennis E. Mishne, Randall E. Sanders, and Roger F. Thoma. 2005. [Changes in Fish Assemblage Status in Ohio's Nonwadeable Rivers and Streams over Two Decades](https://www.researchgate.net/profile/Roger-Thoma/publication/260158637_Changes_in_fish_assemblage_status_in_Ohio's_nonwadeable_rivers_and_streams_over_two_decades/links/00b4952fdee474a26a000000/Changes-in-fish-assemblage-status-in-Ohios-nonwadeable-rivers-and-streams-over-two-decades.pdf). American Fisheries Society Symposium 45:000-000
+
+Yoder, Chris O., Edward T Rankin, Marc A. Smith, Brian C. Alsdorf, David J. Altfater, Charles E. Boucher, Robert J. Miltner, Dennis E. Mishne, Randall E. Sanders, and Roger F. Thoma. 2019. [Degradation and Recovery of Scioto River (Ohio, USA) Fish Assemblages from Presettlement to Present-Day Conditions](https://fisheries.org/doi/9781934874554-ch10/). American Fisheries Society Symposium 45:000-000
